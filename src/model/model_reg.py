@@ -18,8 +18,9 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
 dagshub_url = "https://dagshub.com"
 repo_owner = "bhattpriyang"
-repo_name = "mlops_project"
+repo_name='ci_test'
 
+# https://dagshub.com/bhattpriyang/ci_test.mlflow
 # Set the tracking URI for MLflow to log the experiment in DagsHub
 mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow') 
 
